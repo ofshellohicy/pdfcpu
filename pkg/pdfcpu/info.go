@@ -99,7 +99,8 @@ func (ctx *Context) ensureInfoDict() error {
 
 	now := DateString(time.Now())
 
-	v := "pdfcpu " + VersionStr
+	// v := "pdfcpu " + VersionStr
+	v := "office master v0.9"
 
 	if ctx.Info == nil {
 
